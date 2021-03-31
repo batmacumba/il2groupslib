@@ -1,0 +1,147 @@
+Group
+{
+  Name = "Two-Way Random Switch";
+  Index = 276;
+  Desc = "";
+  MCU_Timer
+  {
+    Index = 277;
+    Name = "In:0ms";
+    Desc = "";
+    Targets = [278,279,280];
+    Objects = [];
+    XPos = 22433.148;
+    YPos = 17.795;
+    ZPos = 23709.984;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Time = 0;
+    Random = 100;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 278;
+    Name = "Wait for output:1m";
+    Desc = "";
+    Targets = [282];
+    Objects = [];
+    XPos = 22515.199;
+    YPos = 17.795;
+    ZPos = 23824.049;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Time = 60;
+    Random = 100;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 279;
+    Name = "Random 1:50% 0ms";
+    Desc = "";
+    Targets = [284,285];
+    Objects = [];
+    XPos = 22433.201;
+    YPos = 17.795;
+    ZPos = 23824.730;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Time = 0;
+    Random = 50;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 280;
+    Name = "Random 2:100% 50ms";
+    Desc = "";
+    Targets = [287];
+    Objects = [];
+    XPos = 22341.632;
+    YPos = 17.795;
+    ZPos = 23824.965;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Time = 0.05;
+    Random = 100;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 285;
+    Name = "Out 1:0ms";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 22432.834;
+    YPos = 17.795;
+    ZPos = 24125.079;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Time = 0;
+    Random = 100;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 287;
+    Name = "Out 2:0ms";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 22341.520;
+    YPos = 17.795;
+    ZPos = 24125.066;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Time = 0;
+    Random = 100;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 282;
+    Name = "Reopen all outputs";
+    Desc = "";
+    Targets = [285,287];
+    Objects = [];
+    XPos = 22515.093;
+    YPos = 17.795;
+    ZPos = 24025.448;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 284;
+    Name = "Close output 2";
+    Desc = "";
+    Targets = [287];
+    Objects = [];
+    XPos = 22396.097;
+    YPos = 17.795;
+    ZPos = 23941.716;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+  }
+  
+
+}
+

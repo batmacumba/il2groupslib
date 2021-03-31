@@ -1,0 +1,991 @@
+Group
+{
+  Name = "Allied Convoy Group";
+  Index = 3108;
+  Desc = "";
+  MCU_TR_Subtitle
+  {
+    Index = 3088;
+    Name = "Msg: Enemy Near";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 110510.880;
+    YPos = 146.287;
+    ZPos = 152361.935;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Enabled = 1;
+    SubtitleInfo
+    {
+      Duration = 15;
+      FontSize = 35;
+      HAlign = 2;
+      VAlign = 0;
+      RColor = 134;
+      GColor = 0;
+      BColor = 0;
+      LCText = 657;
+    }
+    
+    Coalitions = [0, 1, 2];
+  }
+  
+
+  MCU_TR_Subtitle
+  {
+    Index = 3089;
+    Name = "Msg: Enemy Far";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 110484.580;
+    YPos = 146.287;
+    ZPos = 152361.940;
+    XOri = 0.00;
+    YOri = 0.00;
+    ZOri = 0.00;
+    Enabled = 1;
+    SubtitleInfo
+    {
+      Duration = 15;
+      FontSize = 35;
+      HAlign = 2;
+      VAlign = 0;
+      RColor = 134;
+      GColor = 0;
+      BColor = 0;
+      LCText = 658;
+    }
+    
+    Coalitions = [0, 1, 2];
+  }
+  
+
+  MCU_TR_Subtitle
+  {
+    Index = 3096;
+    Name = "Msg:First Waypoint";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 111320.470;
+    YPos = 146.017;
+    ZPos = 152988.918;
+    XOri = 0.00;
+    YOri = 180.06;
+    ZOri = 0.00;
+    Enabled = 1;
+    SubtitleInfo
+    {
+      Duration = 15;
+      FontSize = 35;
+      HAlign = 2;
+      VAlign = 0;
+      RColor = 134;
+      GColor = 0;
+      BColor = 0;
+      LCText = 660;
+    }
+    
+    Coalitions = [0, 1, 2];
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 3097;
+    Name = "T:1s";
+    Desc = "";
+    Targets = [3096];
+    Objects = [];
+    XPos = 111320.470;
+    YPos = 149.228;
+    ZPos = 152857.430;
+    XOri = 0.00;
+    YOri = 180.06;
+    ZOri = 0.00;
+    Time = 1;
+    Random = 100;
+  }
+  
+
+  MCU_TR_Subtitle
+  {
+    Index = 3098;
+    Name = "Msg:Second Waypoint";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 113253.090;
+    YPos = 146.017;
+    ZPos = 152948.056;
+    XOri = 0.00;
+    YOri = 180.06;
+    ZOri = 0.00;
+    Enabled = 1;
+    SubtitleInfo
+    {
+      Duration = 15;
+      FontSize = 35;
+      HAlign = 2;
+      VAlign = 0;
+      RColor = 134;
+      GColor = 0;
+      BColor = 0;
+      LCText = 661;
+    }
+    
+    Coalitions = [0, 1, 2];
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 3099;
+    Name = "T:1s";
+    Desc = "";
+    Targets = [3098];
+    Objects = [];
+    XPos = 113253.090;
+    YPos = 149.228;
+    ZPos = 152816.568;
+    XOri = 0.00;
+    YOri = 180.06;
+    ZOri = 0.00;
+    Time = 1;
+    Random = 100;
+  }
+  
+
+  MCU_TR_Subtitle
+  {
+    Index = 3100;
+    Name = "Msg:Third Waypoint";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 115747.500;
+    YPos = 146.017;
+    ZPos = 153003.164;
+    XOri = 0.00;
+    YOri = 180.06;
+    ZOri = 0.00;
+    Enabled = 1;
+    SubtitleInfo
+    {
+      Duration = 15;
+      FontSize = 35;
+      HAlign = 2;
+      VAlign = 0;
+      RColor = 134;
+      GColor = 0;
+      BColor = 0;
+      LCText = 662;
+    }
+    
+    Coalitions = [0, 1, 2];
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 3101;
+    Name = "T:1s";
+    Desc = "";
+    Targets = [3100];
+    Objects = [];
+    XPos = 115747.500;
+    YPos = 149.228;
+    ZPos = 152871.676;
+    XOri = 0.00;
+    YOri = 180.06;
+    ZOri = 0.00;
+    Time = 1;
+    Random = 100;
+  }
+  
+
+  Group
+  {
+    Name = "Convoy Activated Msg";
+    Index = 3102;
+    Desc = "Delete if necessary";
+    MCU_TR_Subtitle
+    {
+      Index = 3094;
+      Name = "Msg:Convoy Activated";
+      Desc = "";
+      Targets = [];
+      Objects = [];
+      XPos = 110608.460;
+      YPos = 146.017;
+      ZPos = 150894.271;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 1;
+      SubtitleInfo
+      {
+        Duration = 15;
+        FontSize = 45;
+        HAlign = 1;
+        VAlign = 0;
+        RColor = 255;
+        GColor = 255;
+        BColor = 255;
+        LCText = 659;
+      }
+      
+      Coalitions = [0, 1, 2];
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 3095;
+      Name = "T:1s";
+      Desc = "";
+      Targets = [3094];
+      Objects = [];
+      XPos = 110608.460;
+      YPos = 149.228;
+      ZPos = 151025.759;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 1;
+      Random = 100;
+    }
+    
+
+  }
+  
+
+  Group
+  {
+    Name = "Checkzone Logic";
+    Index = 3103;
+    Desc = "";
+    MCU_CheckZone
+    {
+      Index = 3033;
+      Name = "Convoy Checkzone";
+      Desc = "";
+      Targets = [3034,3035,3095];
+      Objects = [];
+      XPos = 110608.460;
+      YPos = 74.800;
+      ZPos = 152195.581;
+      XOri = 0.00;
+      YOri = 105.27;
+      ZOri = 0.00;
+      Zone = 3000;
+      Cylinder = 1;
+      Closer = 1;
+      PlaneCoalitions = [1];
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 3048;
+      Name = "T:10s";
+      Desc = "";
+      Targets = [3033];
+      Objects = [];
+      XPos = 110718.425;
+      YPos = 74.361;
+      ZPos = 152195.581;
+      XOri = 0.00;
+      YOri = 105.27;
+      ZOri = 0.00;
+      Time = 10;
+      Random = 100;
+    }
+    
+
+    MCU_TR_MissionBegin
+    {
+      Index = 3049;
+      Name = "Mission Begin";
+      Desc = "";
+      Targets = [3048];
+      Objects = [];
+      XPos = 110718.423;
+      YPos = 74.923;
+      ZPos = 152068.063;
+      XOri = 0.00;
+      YOri = 105.27;
+      ZOri = 0.00;
+      Enabled = 1;
+    }
+    
+
+    MCU_Deactivate
+    {
+      Index = 3035;
+      Name = "Deactivate Checkzone";
+      Desc = "";
+      Targets = [3033];
+      Objects = [];
+      XPos = 110486.307;
+      YPos = 113.871;
+      ZPos = 152195.581;
+      XOri = 0.00;
+      YOri = 105.27;
+      ZOri = 0.00;
+    }
+    
+
+  }
+  
+
+  Group
+  {
+    Name = "Vehicle Entities";
+    Index = 3105;
+    Desc = "";
+    Vehicle
+    {
+      Name = "Russian Truck";
+      Index = 3036;
+      LinkTrId = 3037;
+      XPos = 110544.799;
+      YPos = 144.132;
+      ZPos = 152631.030;
+      XOri = 1.04;
+      YOri = 0.00;
+      ZOri = 359.22;
+      Script = "LuaScripts\WorldObjects\vehicles\zis5.txt";
+      Model = "graphics\vehicles\zis\zis5.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 1;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 0;
+      AILevel = 2;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 0;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "<multiple>";
+      RepairFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 3037;
+      Name = "Vehicle entity";
+      Desc = "";
+      Targets = [3039];
+      Objects = [];
+      XPos = 110544.799;
+      YPos = 144.332;
+      ZPos = 152631.030;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 0;
+      MisObjID = 3036;
+    }
+    
+
+    Vehicle
+    {
+      Name = "Russian AAA";
+      Index = 3040;
+      LinkTrId = 3041;
+      XPos = 110481.468;
+      YPos = 144.318;
+      ZPos = 152631.030;
+      XOri = 359.60;
+      YOri = 0.00;
+      ZOri = 1.82;
+      Script = "LuaScripts\WorldObjects\vehicles\gaz-aa.txt";
+      Model = "graphics\vehicles\gaz\gaz-aa.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 2;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 0;
+      AILevel = 2;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "<multiple>";
+      RepairFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 3041;
+      Name = "Russian AAA entity";
+      Desc = "";
+      Targets = [3039];
+      Objects = [];
+      XPos = 110481.468;
+      YPos = 144.518;
+      ZPos = 152631.030;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 0;
+      MisObjID = 3040;
+    }
+    
+
+    Vehicle
+    {
+      Name = "Russian Staff";
+      Index = 3043;
+      LinkTrId = 3039;
+      XPos = 110608.463;
+      YPos = 144.480;
+      ZPos = 152631.032;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 358.47;
+      Script = "LuaScripts\WorldObjects\vehicles\gaz-m.txt";
+      Model = "graphics\vehicles\gaz\gaz-m.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 0;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 0;
+      AILevel = 2;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 1;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "<multiple>";
+      RepairFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 3039;
+      Name = "Russian Staff entity";
+      Desc = "";
+      Targets = [];
+      Objects = [];
+      XPos = 110608.463;
+      YPos = 144.680;
+      ZPos = 152631.032;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 0;
+      MisObjID = 3043;
+    }
+    
+
+    Vehicle
+    {
+      Name = "Russian Truck";
+      Index = 3045;
+      LinkTrId = 3046;
+      XPos = 110418.449;
+      YPos = 141.043;
+      ZPos = 152631.030;
+      XOri = 358.57;
+      YOri = 0.00;
+      ZOri = 4.53;
+      Script = "LuaScripts\WorldObjects\vehicles\zis5.txt";
+      Model = "graphics\vehicles\zis\zis5.mgm";
+      Desc = "";
+      Country = 101;
+      NumberInFormation = 3;
+      Vulnerable = 1;
+      Engageable = 1;
+      LimitAmmo = 0;
+      AILevel = 2;
+      DamageReport = 50;
+      DamageThreshold = 1;
+      DeleteAfterDeath = 1;
+      CoopStart = 0;
+      Spotter = -1;
+      BeaconChannel = 0;
+      Callsign = 0;
+      PayloadId = 0;
+      WMMask = 0;
+      Fuel = 1;
+      Callnum = 0;
+      Skin = "<multiple>";
+      RepairFriendlies = 0;
+      RearmFriendlies = 0;
+      RefuelFriendlies = 0;
+      RepairTime = 0;
+      RearmTime = 0;
+      RefuelTime = 0;
+      MaintenanceRadius = 10;
+    }
+    
+
+    MCU_TR_Entity
+    {
+      Index = 3046;
+      Name = "Vehicle entity";
+      Desc = "";
+      Targets = [3039];
+      Objects = [];
+      XPos = 110418.449;
+      YPos = 141.243;
+      ZPos = 152631.030;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Enabled = 0;
+      MisObjID = 3045;
+    }
+    
+
+  }
+  
+
+  Group
+  {
+    Name = "Formation and Proxmity Logic";
+    Index = 3106;
+    Desc = "";
+    MCU_Timer
+    {
+      Index = 3034;
+      Name = "T:3s";
+      Desc = "";
+      Targets = [3059,3060,3068];
+      Objects = [];
+      XPos = 110608.460;
+      YPos = 74.361;
+      ZPos = 152409.146;
+      XOri = 0.00;
+      YOri = 159.58;
+      ZOri = 0.00;
+      Time = 3;
+      Random = 100;
+    }
+    
+
+    MCU_Activate
+    {
+      Index = 3059;
+      Name = "Activate Vehicles";
+      Desc = "";
+      Targets = [];
+      Objects = [3039];
+      XPos = 110608.460;
+      YPos = 79.488;
+      ZPos = 152505.538;
+      XOri = 0.00;
+      YOri = 78.17;
+      ZOri = 0.00;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 3068;
+      Name = "T:10ms";
+      Desc = "";
+      Targets = [3069,3071];
+      Objects = [];
+      XPos = 110534.820;
+      YPos = 140.859;
+      ZPos = 152324.663;
+      XOri = 0.00;
+      YOri = 0.00;
+      ZOri = 0.00;
+      Time = 0.01;
+      Random = 100;
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 3071;
+      Name = "T:10ms";
+      Desc = "";
+      Targets = [3072];
+      Objects = [];
+      XPos = 110403.280;
+      YPos = 74.361;
+      ZPos = 152324.660;
+      XOri = 0.00;
+      YOri = 159.58;
+      ZOri = 0.00;
+      Time = 0.01;
+      Random = 100;
+    }
+    
+
+    MCU_CMD_Formation
+    {
+      Index = 3072;
+      Name = "onRoad Formation";
+      Desc = "";
+      Targets = [];
+      Objects = [3039];
+      XPos = 110403.279;
+      YPos = 80.383;
+      ZPos = 152507.790;
+      XOri = 0.00;
+      YOri = 159.58;
+      ZOri = 0.00;
+    FormationType = 4;
+    FormationDensity = 1;
+    }
+    
+
+    MCU_CMD_Formation
+    {
+      Index = 3075;
+      Name = "Panic Stop";
+      Desc = "";
+      Targets = [];
+      Objects = [3039];
+      XPos = 110521.730;
+      YPos = 80.383;
+      ZPos = 152507.790;
+      XOri = 0.00;
+      YOri = 159.58;
+      ZOri = 0.00;
+    FormationType = 10;
+    FormationDensity = 1;
+    }
+    
+
+    MCU_CMD_Formation
+    {
+      Index = 3076;
+      Name = "Continue Moving";
+      Desc = "";
+      Targets = [];
+      Objects = [3039];
+      XPos = 110501.404;
+      YPos = 80.383;
+      ZPos = 152507.790;
+      XOri = 0.00;
+      YOri = 159.58;
+      ZOri = 0.00;
+    FormationType = 11;
+    FormationDensity = 1;
+    }
+    
+
+    Group
+    {
+      Name = "Proximity Trigger Logic";
+      Index = 3093;
+      Desc = "";
+      MCU_Proximity
+      {
+        Index = 3069;
+        Name = "Enemy Close";
+        Desc = "";
+        Targets = [3075,3077,3082,3087];
+        Objects = [3039];
+        XPos = 110532.460;
+        YPos = 140.222;
+        ZPos = 152408.998;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+        Distance = 1000;
+        Closer = 1;
+        PlaneCoalitions = [2];
+      }
+      
+
+      MCU_Proximity
+      {
+        Index = 3070;
+        Name = "Enemy Far";
+        Desc = "";
+        Targets = [3076,3080,3086,3090];
+        Objects = [3039];
+        XPos = 110484.580;
+        YPos = 140.222;
+        ZPos = 152409.000;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+        Distance = 1300;
+        Closer = 0;
+        PlaneCoalitions = [2];
+      }
+      
+
+      MCU_Deactivate
+      {
+        Index = 3077;
+        Name = "Deactivate Prox Trigger";
+        Desc = "";
+        Targets = [3069];
+        Objects = [];
+        XPos = 110546.654;
+        YPos = 148.826;
+        ZPos = 152409.000;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+      }
+      
+
+      MCU_Activate
+      {
+        Index = 3078;
+        Name = "Activate Prox Trigger";
+        Desc = "";
+        Targets = [3070];
+        Objects = [];
+        XPos = 110494.854;
+        YPos = 148.815;
+        ZPos = 152387.160;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+      }
+      
+
+      MCU_Deactivate
+      {
+        Index = 3080;
+        Name = "Deactivate Prox Trigger";
+        Desc = "";
+        Targets = [3070];
+        Objects = [];
+        XPos = 110469.619;
+        YPos = 148.826;
+        ZPos = 152409.000;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+      }
+      
+
+      MCU_Timer
+      {
+        Index = 3082;
+        Name = "T:1s";
+        Desc = "";
+        Targets = [3078,3088];
+        Objects = [];
+        XPos = 110510.875;
+        YPos = 144.206;
+        ZPos = 152387.156;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+        Time = 1;
+        Random = 100;
+      }
+      
+
+      MCU_Activate
+      {
+        Index = 3084;
+        Name = "Activate Prox Trigger";
+        Desc = "";
+        Targets = [3069];
+        Objects = [];
+        XPos = 110510.880;
+        YPos = 148.815;
+        ZPos = 152431.480;
+        XOri = 0.00;
+        YOri = 178.24;
+        ZOri = 0.00;
+      }
+      
+
+      MCU_Timer
+      {
+        Index = 3086;
+        Name = "T:15s";
+        Desc = "";
+        Targets = [3084];
+        Objects = [];
+        XPos = 110494.850;
+        YPos = 144.206;
+        ZPos = 152431.480;
+        XOri = 0.00;
+        YOri = 178.24;
+        ZOri = 0.00;
+        Time = 15;
+        Random = 100;
+      }
+      
+
+      MCU_Timer
+      {
+        Index = 3087;
+        Name = "T:3s";
+        Desc = "";
+        Targets = [3070];
+        Objects = [];
+        XPos = 110506.238;
+        YPos = 144.206;
+        ZPos = 152409.000;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+        Time = 3;
+        Random = 100;
+      }
+      
+
+      MCU_Timer
+      {
+        Index = 3090;
+        Name = "T:1s";
+        Desc = "";
+        Targets = [3089];
+        Objects = [];
+        XPos = 110484.580;
+        YPos = 144.206;
+        ZPos = 152431.480;
+        XOri = 0.00;
+        YOri = 0.00;
+        ZOri = 0.00;
+        Time = 1;
+        Random = 100;
+      }
+      
+
+    }
+    
+
+    MCU_Timer
+    {
+      Index = 3060;
+      Name = "T:1s";
+      Desc = "";
+      Targets = [3050];
+      Objects = [];
+      XPos = 110802.873;
+      YPos = 74.361;
+      ZPos = 152409.150;
+      XOri = 0.00;
+      YOri = 159.58;
+      ZOri = 0.00;
+      Time = 1;
+      Random = 100;
+    }
+    
+
+  }
+  
+
+  Group
+  {
+    Name = "Waypoints";
+    Index = 3107;
+    Desc = "";
+    MCU_Waypoint
+    {
+      Index = 3050;
+      Name = "Convoy Waypoints";
+      Desc = "";
+      Targets = [3051,3097];
+      Objects = [3039];
+      XPos = 111320.474;
+      YPos = 133.888;
+      ZPos = 152631.030;
+      XOri = 0.00;
+      YOri = 78.17;
+      ZOri = 0.00;
+      Area = 200;
+      Speed = 50;
+      Priority = 1;
+    }
+    
+
+    MCU_Waypoint
+    {
+      Index = 3051;
+      Name = "Convoy Waypoints";
+      Desc = "";
+      Targets = [3053,3099];
+      Objects = [3039];
+      XPos = 113253.092;
+      YPos = 143.002;
+      ZPos = 152631.030;
+      XOri = 0.00;
+      YOri = 105.27;
+      ZOri = 0.00;
+      Area = 200;
+      Speed = 50;
+      Priority = 1;
+    }
+    
+
+    MCU_Waypoint
+    {
+      Index = 3053;
+      Name = "Convoy Waypoints";
+      Desc = "";
+      Targets = [3101];
+      Objects = [3039];
+      XPos = 115747.497;
+      YPos = 150.637;
+      ZPos = 152631.030;
+      XOri = 0.00;
+      YOri = 105.27;
+      ZOri = 0.00;
+      Area = 200;
+      Speed = 50;
+      Priority = 1;
+    }
+    
+
+  }
+  
+
+}
+

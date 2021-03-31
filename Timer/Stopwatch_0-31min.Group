@@ -1,0 +1,1471 @@
+MCU_Timer
+{
+  Index = 169;
+  Name = "1 min";
+  Desc = "";
+  Targets = [170,171];
+  Objects = [];
+  XPos = 108557.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 170;
+  Name = "2";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108557.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 445;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 171;
+  Name = "1 min";
+  Desc = "";
+  Targets = [174,175];
+  Objects = [];
+  XPos = 108555.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 174;
+  Name = "3";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108555.495;
+  YPos = 22.050;
+  ZPos = 101156.088;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 446;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 175;
+  Name = "1 min";
+  Desc = "";
+  Targets = [178,179];
+  Objects = [];
+  XPos = 108553.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 178;
+  Name = "4";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108553.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 447;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 179;
+  Name = "1 min";
+  Desc = "";
+  Targets = [182,183];
+  Objects = [];
+  XPos = 108551.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 182;
+  Name = "5";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108551.539;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 448;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 183;
+  Name = "1 min";
+  Desc = "";
+  Targets = [186,187];
+  Objects = [];
+  XPos = 108549.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 186;
+  Name = "6";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108549.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 449;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 187;
+  Name = "1 min";
+  Desc = "";
+  Targets = [190,191];
+  Objects = [];
+  XPos = 108547.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 190;
+  Name = "7";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108547.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 450;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 191;
+  Name = "1 min";
+  Desc = "";
+  Targets = [194,195];
+  Objects = [];
+  XPos = 108545.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 194;
+  Name = "8";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108545.495;
+  YPos = 22.050;
+  ZPos = 101156.088;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 451;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 195;
+  Name = "1 min";
+  Desc = "";
+  Targets = [198,199];
+  Objects = [];
+  XPos = 108543.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 198;
+  Name = "9";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108543.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 452;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 199;
+  Name = "1 min";
+  Desc = "";
+  Targets = [202,203];
+  Objects = [];
+  XPos = 108541.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 202;
+  Name = "10";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108541.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 453;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 203;
+  Name = "1 min";
+  Desc = "";
+  Targets = [206,207];
+  Objects = [];
+  XPos = 108539.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 206;
+  Name = "11";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108539.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 454;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 207;
+  Name = "1 min";
+  Desc = "";
+  Targets = [210,211];
+  Objects = [];
+  XPos = 108537.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 210;
+  Name = "12";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108537.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 455;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 211;
+  Name = "1 min";
+  Desc = "";
+  Targets = [214,215];
+  Objects = [];
+  XPos = 108535.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 214;
+  Name = "13";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108535.495;
+  YPos = 22.050;
+  ZPos = 101156.088;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 456;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 215;
+  Name = "1 min";
+  Desc = "";
+  Targets = [218,219];
+  Objects = [];
+  XPos = 108533.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 218;
+  Name = "14";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108533.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 457;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 219;
+  Name = "1 min";
+  Desc = "";
+  Targets = [222,223];
+  Objects = [];
+  XPos = 108531.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 222;
+  Name = "15";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108531.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 458;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 223;
+  Name = "1 min";
+  Desc = "";
+  Targets = [226,227];
+  Objects = [];
+  XPos = 108529.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 226;
+  Name = "16";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108529.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 459;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 227;
+  Name = "1 min";
+  Desc = "";
+  Targets = [230,231];
+  Objects = [];
+  XPos = 108527.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 230;
+  Name = "17";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108527.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 460;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 231;
+  Name = "1 min";
+  Desc = "";
+  Targets = [234,235];
+  Objects = [];
+  XPos = 108525.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 234;
+  Name = "18";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108525.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 461;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 235;
+  Name = "1 min";
+  Desc = "";
+  Targets = [238,239];
+  Objects = [];
+  XPos = 108523.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 238;
+  Name = "19";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108523.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 462;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 239;
+  Name = "1 min";
+  Desc = "";
+  Targets = [242,243];
+  Objects = [];
+  XPos = 108521.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 242;
+  Name = "20";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108521.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 463;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 243;
+  Name = "1 min";
+  Desc = "";
+  Targets = [246,247];
+  Objects = [];
+  XPos = 108519.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 246;
+  Name = "21";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108519.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 464;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 247;
+  Name = "1 min";
+  Desc = "";
+  Targets = [250,251];
+  Objects = [];
+  XPos = 108517.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 250;
+  Name = "22";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108517.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 465;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 251;
+  Name = "1 min";
+  Desc = "";
+  Targets = [254,255];
+  Objects = [];
+  XPos = 108515.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 254;
+  Name = "23";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108515.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 466;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 255;
+  Name = "1 min";
+  Desc = "";
+  Targets = [258,259];
+  Objects = [];
+  XPos = 108513.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 258;
+  Name = "24";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108513.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 467;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 259;
+  Name = "1 min";
+  Desc = "";
+  Targets = [262,263];
+  Objects = [];
+  XPos = 108511.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 262;
+  Name = "25";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108511.591;
+  YPos = 22.050;
+  ZPos = 101156.106;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 468;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 263;
+  Name = "1 min";
+  Desc = "";
+  Targets = [266,267];
+  Objects = [];
+  XPos = 108509.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 266;
+  Name = "26";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108509.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 469;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 267;
+  Name = "1 min";
+  Desc = "";
+  Targets = [270,271];
+  Objects = [];
+  XPos = 108507.495;
+  YPos = 23.965;
+  ZPos = 101106.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 270;
+  Name = "27";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108507.495;
+  YPos = 22.050;
+  ZPos = 101156.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 470;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_TR_MissionBegin
+{
+  Index = 273;
+  Name = "Auxiliary Mission Begin";
+  Desc = "";
+  Targets = [274,275];
+  Objects = [];
+  XPos = 108563.706;
+  YPos = 17.945;
+  ZPos = 101130.044;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 276;
+  Name = "1";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108559.623;
+  YPos = 22.050;
+  ZPos = 101156.075;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 471;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 274;
+  Name = "1 min";
+  Desc = "";
+  Targets = [169,276];
+  Objects = [];
+  XPos = 108559.606;
+  YPos = 23.965;
+  ZPos = 101106.032;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 275;
+  Name = "Empty";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108561.733;
+  YPos = 22.050;
+  ZPos = 101156.095;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 472;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 271;
+  Name = "1 min";
+  Desc = "";
+  Targets = [280,281];
+  Objects = [];
+  XPos = 108505.049;
+  YPos = 23.965;
+  ZPos = 101105.950;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 280;
+  Name = "28";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108505.049;
+  YPos = 22.050;
+  ZPos = 101155.950;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 473;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 281;
+  Name = "1 min";
+  Desc = "";
+  Targets = [284,285];
+  Objects = [];
+  XPos = 108503.049;
+  YPos = 23.965;
+  ZPos = 101105.950;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 284;
+  Name = "29";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108503.145;
+  YPos = 22.050;
+  ZPos = 101156.012;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 474;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 285;
+  Name = "1 min";
+  Desc = "";
+  Targets = [288,289];
+  Objects = [];
+  XPos = 108501.049;
+  YPos = 23.965;
+  ZPos = 101105.950;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 288;
+  Name = "30";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108501.049;
+  YPos = 22.050;
+  ZPos = 101156.081;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 475;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+
+MCU_Timer
+{
+  Index = 289;
+  Name = "1 min";
+  Desc = "";
+  Targets = [292];
+  Objects = [];
+  XPos = 108499.049;
+  YPos = 23.965;
+  ZPos = 101105.950;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Time = 60;
+  Random = 100;
+}
+
+MCU_TR_Subtitle
+{
+  Index = 292;
+  Name = "31";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 108499.049;
+  YPos = 22.050;
+  ZPos = 101155.950;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  SubtitleInfo
+  {
+    Duration = 60;
+    FontSize = 24;
+    HAlign = 0;
+    VAlign = 1;
+    RColor = 255;
+    GColor = 255;
+    BColor = 255;
+    LCText = 476;
+  }
+  
+  Coalitions = [0, 1, 2, 3, 4];
+}
+

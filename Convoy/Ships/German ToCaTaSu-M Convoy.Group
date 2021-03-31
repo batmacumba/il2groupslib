@@ -1,0 +1,1311 @@
+Group
+{
+  Name = "German ToCaTaSu-M Convoy";
+  Index = 13298;
+  Desc = "Speed target is 16 kph.";
+  Ship
+  {
+    Name = "Convoy Leader";
+    Index = 13299;
+    LinkTrId = 13300;
+    XPos = 180048.947;
+    YPos = 0.000;
+    ZPos = 193034.666;
+    XOri = 0.00;
+    YOri = 90.07;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\torpboats38.txt";
+    Model = "graphics\ships\torpboats38\torpboats38.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13300;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180048.947;
+    YPos = 0.200;
+    ZPos = 193034.666;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13299;
+  }
+  
+
+  Ship
+  {
+    Name = "Convoy Ship 1";
+    Index = 13302;
+    LinkTrId = 13303;
+    XPos = 180016.133;
+    YPos = 0.000;
+    ZPos = 192293.434;
+    XOri = 0.00;
+    YOri = 89.62;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\largecargoshiptype1.txt";
+    Model = "graphics\ships\largecargoshiptype1\largecargoshiptype1.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13303;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180016.133;
+    YPos = 0.200;
+    ZPos = 192293.434;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13302;
+  }
+  
+
+  Ship
+  {
+    Name = "Convoy Ship 2";
+    Index = 13305;
+    LinkTrId = 13306;
+    XPos = 180082.556;
+    YPos = 0.000;
+    ZPos = 191554.059;
+    XOri = 0.00;
+    YOri = 90.02;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\largecargoshiptype1.txt";
+    Model = "graphics\ships\largecargoshiptype1\largecargoshiptype1.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13306;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180082.556;
+    YPos = 0.200;
+    ZPos = 191554.059;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13305;
+  }
+  
+
+  Ship
+  {
+    Name = "Convoy Ship 3";
+    Index = 13308;
+    LinkTrId = 13309;
+    XPos = 180048.334;
+    YPos = 0.000;
+    ZPos = 190788.370;
+    XOri = 0.00;
+    YOri = 90.28;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\largetankershiptype1ger.txt";
+    Model = "graphics\ships\largetankershiptype1\largetankershiptype1ger.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13309;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180048.334;
+    YPos = 0.200;
+    ZPos = 190788.370;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13308;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13311;
+    Name = "WP1 Convoy Leader";
+    Desc = "";
+    Targets = [13312];
+    Objects = [13300];
+    XPos = 180046.978;
+    YPos = 0.000;
+    ZPos = 213828.067;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.02;
+    Priority = 1;
+  }
+  
+
+  MCU_TR_MissionBegin
+  {
+    Index = 13313;
+    Name = "Translator Mission Begin";
+    Desc = "";
+    Targets = [13314];
+    Objects = [];
+    XPos = 175553.463;
+    YPos = 498.572;
+    ZPos = 190814.156;
+    XOri = 0.00;
+    YOri = 311.37;
+    ZOri = 0.00;
+    Enabled = 1;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 13314;
+    Name = "Buffer 1 sec";
+    Desc = "";
+    Targets = [13316,13317];
+    Objects = [];
+    XPos = 175878.830;
+    YPos = 373.281;
+    ZPos = 190813.765;
+    XOri = 0.00;
+    YOri = 311.37;
+    ZOri = 0.00;
+    Time = 1;
+    Random = 100;
+  }
+  
+
+  Ship
+  {
+    Name = "Convoy Ship 4";
+    Index = 13318;
+    LinkTrId = 13319;
+    XPos = 180070.439;
+    YPos = 0.000;
+    ZPos = 190038.249;
+    XOri = 0.00;
+    YOri = 90.28;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\largecargoshiptype1.txt";
+    Model = "graphics\ships\largecargoshiptype1\largecargoshiptype1.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13319;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180070.439;
+    YPos = 0.200;
+    ZPos = 190038.249;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13318;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13321;
+    Name = "Activate Ship 2";
+    Desc = "";
+    Targets = [];
+    Objects = [13306];
+    XPos = 178598.371;
+    YPos = 0.000;
+    ZPos = 191928.691;
+    XOri = 0.00;
+    YOri = 331.81;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13322;
+    Name = "Deactivate Ship 2";
+    Desc = "";
+    Targets = [];
+    Objects = [13306];
+    XPos = 178638.017;
+    YPos = 0.000;
+    ZPos = 191847.461;
+    XOri = 0.00;
+    YOri = 331.81;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 13323;
+    Name = "Buffer 2 sec";
+    Desc = "";
+    Targets = [13311,13324,13325,13326,13327,13328,13329];
+    Objects = [];
+    XPos = 177105.173;
+    YPos = 373.281;
+    ZPos = 193840.281;
+    XOri = 0.00;
+    YOri = 311.37;
+    ZOri = 0.00;
+    Time = 2;
+    Random = 100;
+  }
+  
+
+  MCU_Counter
+  {
+    Index = 13316;
+    Name = "Trigger Counter";
+    Desc = "";
+    Targets = [13323];
+    Objects = [];
+    XPos = 176718.825;
+    YPos = 88.854;
+    ZPos = 193836.083;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Counter = 1;
+    Dropcount = 0;
+  }
+  
+
+  Ship
+  {
+    Name = "Convoy Ship 6";
+    Index = 13331;
+    LinkTrId = 13332;
+    XPos = 180048.226;
+    YPos = 0.000;
+    ZPos = 188563.522;
+    XOri = 0.00;
+    YOri = 90.28;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\subtype2b.txt";
+    Model = "graphics\ships\subtype2b\subtype2b.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13332;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180048.226;
+    YPos = 0.200;
+    ZPos = 188563.522;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13331;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13334;
+    Name = "Enable Ship 2";
+    Desc = "";
+    Targets = [13321];
+    Objects = [13306,13232];
+    XPos = 178206.535;
+    YPos = 0.000;
+    ZPos = 191934.872;
+    XOri = 0.00;
+    YOri = 307.83;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13335;
+    Name = "Disable Ship 2";
+    Desc = "";
+    Targets = [13322];
+    Objects = [13306,13232];
+    XPos = 178249.571;
+    YPos = 0.000;
+    ZPos = 191800.485;
+    XOri = 0.00;
+    YOri = 307.83;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13336;
+    Name = "Activate Ship 1";
+    Desc = "";
+    Targets = [];
+    Objects = [13303];
+    XPos = 178715.051;
+    YPos = 0.000;
+    ZPos = 192835.094;
+    XOri = 0.00;
+    YOri = 331.81;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13337;
+    Name = "Deactivate Ship 1";
+    Desc = "";
+    Targets = [];
+    Objects = [13303];
+    XPos = 178779.217;
+    YPos = 0.000;
+    ZPos = 192771.915;
+    XOri = 0.00;
+    YOri = 331.81;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13338;
+    Name = "Enable Ship 1";
+    Desc = "";
+    Targets = [13336];
+    Objects = [13303,13232];
+    XPos = 178432.438;
+    YPos = 0.000;
+    ZPos = 193019.359;
+    XOri = 0.00;
+    YOri = 307.83;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13339;
+    Name = "Disable Ship 1";
+    Desc = "";
+    Targets = [13337];
+    Objects = [13303,13232];
+    XPos = 178475.473;
+    YPos = 0.000;
+    ZPos = 192902.933;
+    XOri = 0.00;
+    YOri = 307.83;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13340;
+    Name = "Activate Leader";
+    Desc = "";
+    Targets = [];
+    Objects = [13300];
+    XPos = 178874.506;
+    YPos = 0.000;
+    ZPos = 193652.946;
+    XOri = 0.00;
+    YOri = 331.81;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13341;
+    Name = "Deactivate Leader";
+    Desc = "";
+    Targets = [];
+    Objects = [13300];
+    XPos = 178916.858;
+    YPos = 0.000;
+    ZPos = 193582.540;
+    XOri = 0.00;
+    YOri = 331.81;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13342;
+    Name = "Enable Leader";
+    Desc = "";
+    Targets = [13340];
+    Objects = [13300,13232];
+    XPos = 178628.108;
+    YPos = 0.000;
+    ZPos = 193896.150;
+    XOri = 0.00;
+    YOri = 307.83;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13343;
+    Name = "Disable Leader";
+    Desc = "";
+    Targets = [13341];
+    Objects = [13300,13232];
+    XPos = 178664.408;
+    YPos = 0.000;
+    ZPos = 193766.254;
+    XOri = 0.00;
+    YOri = 307.83;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13344;
+    Name = "Activate Ship 3";
+    Desc = "";
+    Targets = [];
+    Objects = [13309];
+    XPos = 178583.487;
+    YPos = 0.000;
+    ZPos = 190679.178;
+    XOri = 0.00;
+    YOri = 329.95;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13345;
+    Name = "Deactivate Ship 3";
+    Desc = "";
+    Targets = [];
+    Objects = [13309];
+    XPos = 178630.757;
+    YPos = 0.000;
+    ZPos = 190592.313;
+    XOri = 0.00;
+    YOri = 329.95;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13346;
+    Name = "Enable Ship 3";
+    Desc = "";
+    Targets = [13344];
+    Objects = [13309,13232];
+    XPos = 178208.681;
+    YPos = 0.000;
+    ZPos = 190644.454;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13347;
+    Name = "Disable Ship 3";
+    Desc = "";
+    Targets = [13345];
+    Objects = [13309,13232];
+    XPos = 178255.801;
+    YPos = 0.000;
+    ZPos = 190519.530;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13348;
+    Name = "Activate Ship 4";
+    Desc = "";
+    Targets = [];
+    Objects = [13319];
+    XPos = 178562.994;
+    YPos = 0.000;
+    ZPos = 189607.127;
+    XOri = 0.00;
+    YOri = 329.95;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13349;
+    Name = "Deactivate Ship 4";
+    Desc = "";
+    Targets = [];
+    Objects = [13319];
+    XPos = 178607.254;
+    YPos = 0.000;
+    ZPos = 189525.807;
+    XOri = 0.00;
+    YOri = 329.95;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13350;
+    Name = "Enable Ship 4";
+    Desc = "";
+    Targets = [13348];
+    Objects = [13319,13232];
+    XPos = 178209.684;
+    YPos = 0.000;
+    ZPos = 189509.433;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13351;
+    Name = "Disable Ship 4";
+    Desc = "";
+    Targets = [13349];
+    Objects = [13319,13232];
+    XPos = 178250.068;
+    YPos = 0.000;
+    ZPos = 189397.979;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13352;
+    Name = "Activate Ship 6";
+    Desc = "";
+    Targets = [];
+    Objects = [13332];
+    XPos = 178869.087;
+    YPos = 0.000;
+    ZPos = 188250.317;
+    XOri = 0.00;
+    YOri = 342.27;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13353;
+    Name = "Deactivate Ship 6";
+    Desc = "";
+    Targets = [];
+    Objects = [13332];
+    XPos = 178928.113;
+    YPos = 0.000;
+    ZPos = 188139.602;
+    XOri = 0.00;
+    YOri = 342.27;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13354;
+    Name = "Enable Ship 6";
+    Desc = "";
+    Targets = [13352];
+    Objects = [13332,13232];
+    XPos = 178544.873;
+    YPos = 0.000;
+    ZPos = 187973.400;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13355;
+    Name = "Disable Ship 6";
+    Desc = "";
+    Targets = [13353];
+    Objects = [13332,13232];
+    XPos = 178598.709;
+    YPos = 0.000;
+    ZPos = 187874.940;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13328;
+    Name = "WP1 Convoy Ship 1";
+    Desc = "";
+    Targets = [13357];
+    Objects = [13303];
+    XPos = 180022.389;
+    YPos = 0.000;
+    ZPos = 213828.883;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13324;
+    Name = "WP1 Convoy Ship 2";
+    Desc = "";
+    Targets = [13359];
+    Objects = [13306];
+    XPos = 180072.385;
+    YPos = 0.000;
+    ZPos = 213827.410;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13327;
+    Name = "WP1 Convoy Ship 3";
+    Desc = "";
+    Targets = [13361];
+    Objects = [13309];
+    XPos = 180046.649;
+    YPos = 0.000;
+    ZPos = 213822.327;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 16;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13325;
+    Name = "WP1 Convoy Ship 4";
+    Desc = "";
+    Targets = [13363];
+    Objects = [13319];
+    XPos = 180072.397;
+    YPos = 0.000;
+    ZPos = 213821.965;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13326;
+    Name = "WP1 Convoy Ship 6";
+    Desc = "";
+    Targets = [13365];
+    Objects = [13332];
+    XPos = 180046.657;
+    YPos = 0.000;
+    ZPos = 213816.011;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.74;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13312;
+    Name = "WP2 Convoy Leader";
+    Desc = "";
+    Targets = [13367];
+    Objects = [13300];
+    XPos = 180049.048;
+    YPos = 0.000;
+    ZPos = 229291.437;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.02;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13357;
+    Name = "WP2 Convoy Ship 1";
+    Desc = "";
+    Targets = [13369];
+    Objects = [13303];
+    XPos = 180023.505;
+    YPos = 0.000;
+    ZPos = 229291.262;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13359;
+    Name = "WP2 Convoy Ship 2";
+    Desc = "";
+    Targets = [13371];
+    Objects = [13306];
+    XPos = 180073.816;
+    YPos = 0.000;
+    ZPos = 229291.525;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13361;
+    Name = "WP2 Convoy Ship 3";
+    Desc = "";
+    Targets = [13373];
+    Objects = [13309];
+    XPos = 180049.076;
+    YPos = 0.000;
+    ZPos = 229285.361;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 16;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13363;
+    Name = "WP2 Convoy Ship 4";
+    Desc = "";
+    Targets = [13375];
+    Objects = [13319];
+    XPos = 180073.934;
+    YPos = 0.000;
+    ZPos = 229284.338;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 14.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13365;
+    Name = "WP2 Convoy Ship 6";
+    Desc = "";
+    Targets = [13377];
+    Objects = [13332];
+    XPos = 180048.915;
+    YPos = 0.000;
+    ZPos = 229278.362;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.74;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13367;
+    Name = "WP3 Convoy Leader";
+    Desc = "";
+    Targets = [];
+    Objects = [13300];
+    XPos = 180050.030;
+    YPos = 0.000;
+    ZPos = 239860.493;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.02;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13369;
+    Name = "WP3 Convoy Ship 1";
+    Desc = "";
+    Targets = [];
+    Objects = [13303];
+    XPos = 179841.275;
+    YPos = 0.000;
+    ZPos = 239742.254;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13371;
+    Name = "WP3 Convoy Ship 2";
+    Desc = "";
+    Targets = [];
+    Objects = [13306];
+    XPos = 180168.576;
+    YPos = 0.000;
+    ZPos = 239533.371;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13373;
+    Name = "WP3 Convoy Ship 3";
+    Desc = "";
+    Targets = [];
+    Objects = [13309];
+    XPos = 179944.085;
+    YPos = 0.000;
+    ZPos = 239491.629;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 16;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13375;
+    Name = "WP3 Convoy Ship 4";
+    Desc = "";
+    Targets = [];
+    Objects = [13319];
+    XPos = 180311.133;
+    YPos = 0.000;
+    ZPos = 239175.013;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.85;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13377;
+    Name = "WP3 Convoy Ship 6";
+    Desc = "";
+    Targets = [];
+    Objects = [13332];
+    XPos = 179992.354;
+    YPos = 0.000;
+    ZPos = 239127.374;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 15.74;
+    Priority = 1;
+  }
+  
+
+  MCU_Counter
+  {
+    Index = 13384;
+    Name = "Trigger Counter";
+    Desc = "";
+    Targets = [13355,13351,13347,13335,13339,13343,13385,13354,13386,13350,13346,13334,13338,13342];
+    Objects = [];
+    XPos = 176672.486;
+    YPos = 88.854;
+    ZPos = 190814.279;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Counter = 1;
+    Dropcount = 0;
+  }
+  
+
+  MCU_Timer
+  {
+    Index = 13317;
+    Name = "Buffer 6 sec";
+    Desc = "";
+    Targets = [13384];
+    Objects = [];
+    XPos = 176238.462;
+    YPos = 373.281;
+    ZPos = 190814.535;
+    XOri = 0.00;
+    YOri = 311.37;
+    ZOri = 0.00;
+    Time = 6;
+    Random = 100;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13329;
+    Name = "WP1 Convoy Ship 5";
+    Desc = "";
+    Targets = [13389];
+    Objects = [13390];
+    XPos = 180022.447;
+    YPos = 0.000;
+    ZPos = 213822.018;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 16;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13389;
+    Name = "WP2 Convoy Ship 5";
+    Desc = "";
+    Targets = [13392];
+    Objects = [13390];
+    XPos = 180023.514;
+    YPos = 0.000;
+    ZPos = 229284.178;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 16;
+    Priority = 1;
+  }
+  
+
+  MCU_Waypoint
+  {
+    Index = 13392;
+    Name = "WP3 Convoy Ship 5";
+    Desc = "";
+    Targets = [];
+    Objects = [13390];
+    XPos = 179666.469;
+    YPos = 0.000;
+    ZPos = 239473.564;
+    XOri = 0.00;
+    YOri = 90.00;
+    ZOri = 0.00;
+    Area = 50;
+    Speed = 16;
+    Priority = 1;
+  }
+  
+
+  Ship
+  {
+    Name = "Convoy Ship 5";
+    Index = 13394;
+    LinkTrId = 13390;
+    XPos = 180013.529;
+    YPos = 0.000;
+    ZPos = 189288.842;
+    XOri = 0.00;
+    YOri = 90.28;
+    ZOri = 0.00;
+    Script = "LuaScripts\WorldObjects\Ships\largetankershiptype1ger.txt";
+    Model = "graphics\ships\largetankershiptype1\largetankershiptype1ger.mgm";
+    Desc = "";
+    Country = 201;
+    Vulnerable = 1;
+    Engageable = 1;
+    LimitAmmo = 1;
+    AILevel = 2;
+    DamageReport = 50;
+    DamageThreshold = 1;
+    DeleteAfterDeath = 0;
+    Spotter = -1;
+    BeaconChannel = 0;
+    Callsign = 0;
+  }
+  
+
+  MCU_TR_Entity
+  {
+    Index = 13390;
+    Name = "Ship entity";
+    Desc = "";
+    Targets = [];
+    Objects = [];
+    XPos = 180013.529;
+    YPos = 0.200;
+    ZPos = 189288.842;
+    XOri = 0.00;
+    YOri = 344.48;
+    ZOri = 0.00;
+    Enabled = 1;
+    MisObjID = 13394;
+  }
+  
+
+  MCU_Activate
+  {
+    Index = 13396;
+    Name = "Activate Ship 5";
+    Desc = "";
+    Targets = [];
+    Objects = [13390];
+    XPos = 178668.265;
+    YPos = 0.000;
+    ZPos = 188894.340;
+    XOri = 0.00;
+    YOri = 329.95;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Deactivate
+  {
+    Index = 13397;
+    Name = "Deactivate Ship 5";
+    Desc = "";
+    Targets = [];
+    Objects = [13390];
+    XPos = 178736.383;
+    YPos = 0.000;
+    ZPos = 188802.279;
+    XOri = 0.00;
+    YOri = 329.95;
+    ZOri = 0.00;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13386;
+    Name = "Enable Ship 5";
+    Desc = "";
+    Targets = [13396];
+    Objects = [13390,13232];
+    XPos = 178311.705;
+    YPos = 0.000;
+    ZPos = 188712.519;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 20000;
+    Closer = 1;
+  }
+  
+
+  MCU_Proximity
+  {
+    Index = 13385;
+    Name = "Disable Ship 5";
+    Desc = "";
+    Targets = [13397];
+    Objects = [13390,13232];
+    XPos = 178365.559;
+    YPos = 0.000;
+    ZPos = 188578.615;
+    XOri = 0.00;
+    YOri = 305.97;
+    ZOri = 0.00;
+    Distance = 25000;
+    Closer = 0;
+  }
+  
+
+}
+
